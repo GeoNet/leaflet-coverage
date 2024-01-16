@@ -18,7 +18,7 @@ export default defineConfig({
   plugins: [
     nodeResolve({ browser: true }),
     commonjs({ include: 'node_modules/**' }),
-    babel({ babelHelpers: 'bundled' }),
+    babel.babel({ babelHelpers: 'bundled' }),
   ],
   external: ['leaflet', 'c3', 'covutils'],
 
