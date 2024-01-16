@@ -35,6 +35,9 @@
     "covutils": "^0.6.1",
     "ndarray": "^1.0.18"
   },
+  "overrides": {
+    "d3-color": "3.1.0"
+  },
   "peerDependencies": {
     "c3": "^0.7.20",
     "leaflet": "^1.7.0"
@@ -62,11 +65,11 @@
     "karma": "^6.3.9",
     "karma-browserify": "^8.1.0",
     "karma-chrome-launcher": "^3.1.0",
-    "karma-firefox-launcher": "^2.1.2",
     "karma-coverage": "^2.1.0",
+    "karma-firefox-launcher": "^2.1.2",
     "karma-mocha": "^2.0.1",
     "mocha": "^9.1.3",
-    "rollup": "^2.62.0",
+    "rollup": "^2.79.1",
     "rollup-plugin-terser": "^7.0.0"
   }
 }
